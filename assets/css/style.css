@@ -42,6 +42,7 @@ h1 {
 #menu {
     font-size: 110%;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 #menu > li {
@@ -70,10 +71,11 @@ nav {
 
 #nav-toggle {
     display: none;
+    
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2rem; 
 }
 
 /* Main Content */
@@ -85,8 +87,17 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: lightgreen;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 140%;
+    padding: 5%;
 }
 
 /* Media query: tablets and larger (768px and up */
