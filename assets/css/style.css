@@ -36,6 +36,19 @@ h1 {
     font-family: 'DM Serif Display', serif;
 }
 
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #000000;
+}
+
 /* Main Content */
 main {
     background-color: lightgrey;
