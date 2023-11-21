@@ -15,12 +15,16 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #000000;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* Header */
 header {
     background-color: lightblue;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
 }
 
 /* Main Content */
