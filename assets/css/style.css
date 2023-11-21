@@ -25,6 +25,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -49,22 +52,36 @@ h1 {
     border-bottom: 1px solid #000000;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar styles with dropdown toggle - styles created with help from Love Running */
 nav {
     position: absolute;
     background-color: #ffffff;
-    width: 100;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     display: none;
+    top: 100%;
 }
 
+/* Nav toggle - styles created with help from Love Running */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main Content */
 main {
     background-color: lightgrey;
     /* Main element will take up surplus space to push the footer down */
     flex: 1 0 auto;
+    margin-top: 100px;
 }
 
 /* Footer */
