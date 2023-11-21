@@ -20,7 +20,16 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
