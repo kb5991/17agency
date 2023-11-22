@@ -78,7 +78,8 @@ nav {
     font-size: 2rem; 
 }
 
-/* Main Content */
+/* Homepage */
+    /* Main Content */
 main {
     background-color: lightgrey;
     /* Main element will take up surplus space to push the footer down */
@@ -97,7 +98,6 @@ main p {
     display: flex;
     justify-content: center;
 }
-
 
 /* Footer */
 #social-networks {
