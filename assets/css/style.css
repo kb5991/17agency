@@ -18,7 +18,7 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'DM Serif Display', serif;
 }
 
@@ -105,6 +105,12 @@ main {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+/* About Page */
+article {
+    width: 50%;
+    text-align: center;
 }
 
 /* Footer */
