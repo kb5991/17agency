@@ -119,6 +119,13 @@ main {
 /* Portfolio Page */
 #photos img  {
     width: 100%;
+    line-height: 1em;
+    padding: 5px;
+}
+
+#photos { 
+    padding: 5px;
+    line-height: 0;
 }
 
 /* Footer */
@@ -133,6 +140,15 @@ main {
 #social-networks i {
     font-size: 140%;
     padding: 5%;
+}
+
+/* Media query: large or landscape phones (576px and up */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up */
@@ -168,6 +184,13 @@ main {
         padding-left: 28%;
         padding-right: 28%;
     }
+
+    /* Portfolio */
+    #photos {
+        column-count: 3;
+        column-gap: none;
+        width: 100%;
+    }
 }
 
 /* Large devices (laptops and desktops 992px and up) */
@@ -175,4 +198,12 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #000000;
     }
+
+ /* Portfolio */
+    #photos {
+        column-count: 5;
+        column-gap: none;
+        width: 100%;
+}
+    
 }
