@@ -31,7 +31,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -42,7 +42,7 @@ header a {
 #menu {
     font-size: 110%;
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #menu > li {
@@ -116,6 +116,11 @@ main {
     text-align: center;
 }
 
+/* Portfolio Page */
+#photos img  {
+    width: 100%;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -160,8 +165,8 @@ main {
 
     /* About */
     #about {
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 28%;
+        padding-right: 28%;
     }
 }
 
