@@ -160,7 +160,8 @@ main {
 
     /* About */
     #about {
-        width: 45%;
+        padding-left: 25%;
+        padding-right: 25%;
     }
 }
 
