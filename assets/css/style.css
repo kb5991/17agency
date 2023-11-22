@@ -108,8 +108,11 @@ main {
 }
 
 /* About Page */
-article {
-    width: 50%;
+#about {
+    padding: 20px;
+}
+
+#about-content {
     text-align: center;
 }
 
@@ -153,6 +156,11 @@ article {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    /* About */
+    #about {
+        width: 45%;
     }
 }
 
