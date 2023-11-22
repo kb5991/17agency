@@ -81,7 +81,6 @@ nav {
 /* Homepage */
     /* Main Content */
 main {
-    background-color: lightgrey;
     /* Main element will take up surplus space to push the footer down */
     flex: 1 0 auto;
     margin-top: 100px;
@@ -97,6 +96,12 @@ main h2 {
 main p {
     display: flex;
     justify-content: center;
+}
+
+#hero {
+    height: 75vh;
+    width: 100%;
+    background: url(../images/hero1.jpg) no-repeat top/cover;
 }
 
 /* Footer */
