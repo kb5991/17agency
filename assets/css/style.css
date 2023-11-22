@@ -18,6 +18,10 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -33,10 +37,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'DM Serif Display', serif;
 }
 
 #menu {
@@ -86,22 +86,25 @@ main {
     margin-top: 100px;
 }
 
-main h2 {
-    font-family: 'DM Serif Display', serif;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-main p {
-    display: flex;
-    justify-content: center;
-}
-
 #hero {
     height: 75vh;
     width: 100%;
     background: url(../images/hero1.jpg) no-repeat top/cover;
+    position: relative;
+}
+
+#cover-text {
+    /*Final RGB value used to set opacity*/
+    background-color: rgba(0, 0, 0, 0.31);
+    font-size: 110%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 130px;
+    min-width: 25%;
+    min-height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Footer */
