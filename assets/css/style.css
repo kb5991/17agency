@@ -148,8 +148,13 @@ main {
 }
 
 #contact-form > h2 {
-    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.11);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .text-input {
@@ -166,10 +171,9 @@ main {
 }
 
 .submit-button {
-    margin-top: 10px;
     border-radius: 5px;
     padding: 10px 30px;
-    background: transparent;
+    background-color: rgba(247, 243, 243, 0.301);
     color: #ffffff;
 }
 
