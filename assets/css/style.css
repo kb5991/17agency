@@ -143,6 +143,7 @@ main {
 #contact-form {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.31);
+    border-radius: 5px;
     padding: 30px;
 }
 
@@ -156,7 +157,7 @@ main {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 0 5px;
 }
 
@@ -166,7 +167,7 @@ main {
 
 .submit-button {
     margin-top: 10px;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 10px 30px;
     background: transparent;
     color: #ffffff;
@@ -245,7 +246,7 @@ main {
         max-width: 400px;
         position: absolute;
         left: 10%;
-        top: 140px;
+        top: 100px;
     }
 
     .text-input:hover {
