@@ -45,7 +45,7 @@ header a {
     margin-top: 15px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -71,19 +71,22 @@ nav {
 
 #nav-toggle {
     display: none;
-    
+
 }
 
 .nav-toggle-label {
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 /* Homepage */
-    /* Main Content */
+    /*Main Content */
 main {
     /* Main element will take up surplus space to push the footer down */
     flex: 1 0 auto;
     margin-top: 100px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 #hero {
@@ -117,15 +120,56 @@ main {
 }
 
 /* Portfolio Page */
-#photos img  {
+#photos img {
     width: 100%;
     line-height: 1em;
     padding: 5px;
 }
 
-#photos { 
+#photos {
     padding: 5px;
     line-height: 0;
+}
+
+/* Contact Page and Contact Form */
+#contact {
+    height: 75vh;
+    width: 100;
+    background: url(../images/hero2.jpg) no-repeat top/cover;
+    position: relative;
+    padding: 10px 10% 0 10%;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.31);
+    padding: 30px;
+}
+
+#contact-form > h2 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+#message {
+    height: 60px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 10px 30px;
+    background: transparent;
+    color: #ffffff;
 }
 
 /* Footer */
@@ -153,6 +197,7 @@ main {
 
 /* Media query: tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -165,7 +210,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -188,8 +233,29 @@ main {
     /* Portfolio */
     #photos {
         column-count: 3;
-        column-gap: none;
         width: 100%;
+    }
+
+    /* Contact Form */
+    #contact {
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 140px;
+    }
+
+    .text-input:hover {
+        border-color: #6593f7;
+    }
+
+    .submit-button:hover {
+        border-color: #6593f7;
+        background-color: #fafafa;
+        color: rgba(0, 0, 0, 0.31);
     }
 }
 
@@ -199,11 +265,9 @@ main {
         border-bottom: 1px solid #000000;
     }
 
- /* Portfolio */
+    /* Portfolio */
     #photos {
         column-count: 5;
-        column-gap: none;
         width: 100%;
-}
-    
+    }
 }
