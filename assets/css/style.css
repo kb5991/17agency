@@ -79,7 +79,7 @@ nav {
 }
 
 /* Homepage */
-    /*Main Content */
+/* Main Content */
 main {
     /* Main element will take up surplus space to push the footer down */
     flex: 1 0 auto;
@@ -89,6 +89,7 @@ main {
     flex-direction: column;
 }
 
+/* Hero image for homepage */
 #hero {
     height: 75vh;
     width: 100%;
@@ -97,7 +98,7 @@ main {
 }
 
 #cover-text {
-    /*Final RGB value used to set opacity*/
+    /* Final RGB value used to set opacity */
     background-color: rgba(0, 0, 0, 0.31);
     font-size: 110%;
     color: #ffffff;
@@ -106,8 +107,8 @@ main {
     min-width: 25%;
     min-height: 100px;
     padding-top: 40px;
-    padding-left: 10px;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* About Page */
@@ -147,7 +148,7 @@ main {
     padding: 30px;
 }
 
-#contact-form > h2 {
+#contact-form>h2 {
     background-color: rgba(0, 0, 0, 0.11);
     text-transform: uppercase;
     text-align: center;
