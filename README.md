@@ -48,20 +48,22 @@ The wireframes for this website were created using Balsamiq.com. Originally, as 
 
 The website consists of four pages in total, the Home page, the About page, the Portfolio page and the Contact page. In the original designs for the website, this was set to include three pages only, with the homepage acting as the portfolio page also so that visitors could see immediately the type of work that the agency produced. However, this was changed to include a landing page with a singular hero image and informative heading which, when clicked, takes the user to the 'About' page. This design decision was made to make the website easier to navigate and made more sense for the user to visit the 'About' page first to learn more about Seventeen Agency and then move onto the 'Portfolio' page to see previous works.
 
-1. Original Home page Design on Web and iPhones.
+1. Original Home page Design on Web and iPhones:
 
 ![Original Home page Design on Web and iPhones](assets/images/homepagewebandiphone.png)
 
-2. Contact page on Web and iPhone.
+2. Contact page on Web and iPhone:
 
 ![Contact page on Web and iPhone](assets/images/contactpagwebandiphone.png)
 
-3. About page on Web and iPhone.
+3. About page on Web and iPhone:
 
 ![About page on Web and iPhone](assets/images/aboutpagewebandiphone.png)
 
-4. All pages on iPad.
+4. All pages on iPad:
 
 ![iPad pages](assets/images/homeandaboutpagesipad.png)
 
 ![iPad pages](assets/images/contactpageipad.png)
+
+### Features

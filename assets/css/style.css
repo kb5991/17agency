@@ -39,6 +39,10 @@ header a {
     color: inherit;
 }
 
+#logo {
+    font-size: 210%
+}
+
 #menu {
     font-size: 110%;
     list-style-type: none;
@@ -117,7 +121,11 @@ main {
 }
 
 #about-content {
-    text-align: center;
+    text-align: left;
+}
+
+.about-headings {
+    text-align: left;
 }
 
 /* Portfolio Page */
@@ -234,6 +242,14 @@ main {
     #about {
         padding-left: 28%;
         padding-right: 28%;
+    }
+
+    #about-content {
+    text-align: justify;
+    }
+    
+    .about-headings {
+    text-align: center;
     }
 
     /* Portfolio */
