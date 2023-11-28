@@ -188,6 +188,28 @@ main {
     color: #ffffff;
 }
 
+/* Thanks Page */
+#thanks-image {
+    height: 75vh;
+    width: 100;
+    background: url(../images/thanks.jpg) no-repeat center/cover;
+    position: relative;
+    padding: 10px 10% 0 10%;
+}
+
+#thanks-text {
+    /* Final RGB value used to set opacity */
+    background-color: rgba(0, 0, 0, 0.31);
+    font-size: 110%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 160px;
+    left: 0px;
+    min-width: 25%;
+    min-height: 100px;
+    padding: 10px
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -315,5 +337,10 @@ main {
     #photos {
         column-count: 5;
         width: 100%;
+    }
+
+    /* Thanks Page */
+    #thanks-text {
+        bottom: 200px;
     }
 }
