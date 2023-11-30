@@ -3,8 +3,6 @@
 ![AmIResponsiveImage](assets/images/responsive.png)
 [View the live website here.](https://kb5991.github.io/17agency/index.html)
 
-## Table of Contents
-
 ## Introduction
 
 This website is created to showcase the business and portfolio works of the creative styling agency; Seventeen Agency. The purpose of this website is to target industry professionals looking for an agency to aid them with fashion styling, hair and makeup, photography and creative direction for any projects from editorial to digital. Visitors are met with informative headings at the top of the page, directing them to various pages to learn more about the agency, from an about page to a vibrant portfolio of previous works, to a contact page for any enquiries. Below, the footer links to the agency's external social media pages for further browsing. 
@@ -46,7 +44,7 @@ The imagery for this website was sourced mainly from pexels.com (with exception 
 
 The wireframes for this website were created using Balsamiq.com. Originally, as seen in the wireframes below, the design was set to include a logo consisting of a black circle enclosing the number '17' in place of the heading 'Seventeen Agency'. This logo was scrapped for the final version of the website and was kept only as the favicon. This change was made partly due to aesthetic purposes and because the heading of 'Seventeen Agency' conveyed more clearly the purpose of the website as opposed to a circular logo with just a number inside of it. 
 
-The website consists of four pages in total, the Home page, the About page, the Portfolio page and the Contact page. In the original designs for the website, this was set to include three pages only, with the homepage acting as the portfolio page also so that visitors could see immediately the type of work that the agency produced. However, this was changed to include a landing page with a singular hero image and informative heading which, when clicked, takes the user to the 'About' page. This design decision was made to make the website easier to navigate and made more sense for the user to visit the 'About' page first to learn more about Seventeen Agency and then move onto the 'Portfolio' page to see previous works.
+The website consists of five pages in total, the Home page, the About page, the Portfolio page, the Contact page and finally, the Thank You page which users are redirected to upon completion of the contact form. In the original designs for the website, this was set to include three pages only, with the homepage acting as the portfolio page also so that visitors could see immediately the type of work that the agency produced. However, this was changed to include a landing page with a singular hero image and informative heading which, when clicked, takes the user to the 'About' page. This design decision was made to make the website easier to navigate and made more sense for the user to visit the 'About' page first to learn more about Seventeen Agency and then move onto the 'Portfolio' page to see previous works.
 
 1. Original Home page Design on Web and iPhones:
 
@@ -66,4 +64,60 @@ The website consists of four pages in total, the Home page, the About page, the 
 
 ![iPad pages](assets/images/contactpageipad.png)
 
-### Features
+## Features
+
+### Header and navbar
+
+The navbar for this website is situated at the top of each page, with the name of the business positioned to the left and all navigational elements set to the right. This is set to be the same on all size devices with the navigational elements collapsing into a hamburger menu on smaller screens. The page being viewed is underlined with the other page titles showing as underlined upon mouse hover. The business logo when tapped/clicked takes the user back to the homepage.
+
+1, Navbar as seen on laptops and desktop viewers:
+
+![Navbar as seen on laptops and desktop viewers](assets/images/desktopnavbar.png)
+
+2, Navbar as seen on small phone screens (on larger phone screens the logo remains on one line) with collapsible hamburger menu:
+
+![Navbar as seen on small phone screens](assets/images/phonenavbar.png)
+
+### Footer and social media icons
+
+The footer is situated at the bottom of each page, with clickable links to the Instagram, Tiktok and YouTube social media pages of the business. 
+
+![Footer with social media links](assets/images/footer.png)
+
+### Landing/Homepage 
+
+The landing page boasts an aesthetic, high quality, fashion photograph - showcasing the agency's work upon the first visit to the the website. This image, along with the single across the image helps the user to understand the type of quality and services on offer by Seventeen Agency. The landing image and text when clicked/tapped will take the user to the website's 'About' page.
+
+![Landing Page](assets/images/landingpage.png)
+
+### About page
+
+The about page features the agency's main goals and initiatives, the services and talent they provide and inviting potential clients to collaborate with them. Complementary images are used to break up the text and bring colour to the page. 
+
+![About page](assets/images/aboutpage.png)
+
+### Portfolio page
+
+The portfolio page features the high quality work produced by the agency, to show current and potential clients what they can expect from Seventeen Agency upon working with the business. The page has been designed to work responsively, with 5 columns of imagery on laptops and desktops, down to 3 columns on tablets, and a singular column on phones. 
+
+![Portfolio page](assets/images/portfoliopage.png)
+
+### Contact page
+
+The contact page features a striking background image with an overlayed form allowing the user to contact the agency with any enquiries. All fields in the form are required and will flag a warning if any are missed or if the email address is entered incorrectly. Upon completion, the form will take the user to the 'Thank You' page.
+
+![Contact Page](assets/images/contactpage.png)
+
+### Thank You page
+
+Upon clicking the submit form on the contact page, the user is redirected to the 'Thank You' page with further information on when they can expect a response to their enquiry or, alternative means of communication via the agency's social media pages.
+
+![Thank you page](assets/images/thankyoupage.png)
+
+### Future Implemenations
+
+In the future I would like to improve the performance of the website as some of the imagery in particular is known to slow down the loading speed of the website despite initial and further compression. I would also like to implement a feature where the images in the portfolio can have captions with names of the particular talent - whether they were a fashion stylist or a hair and makeup artist for example, who contributed to that particular campaign/shoot and links to their own portfolio pages for clients to see and choose who they wish to work with.
+
+### Accessibility
+
+Aria labels have been used consistently on all pages as well as alt text on images for ease of use for screen readers and for any broken image links. I have also included fallback fonts should the specified fonts fail to load as well as semantic elements for easy navigation.
