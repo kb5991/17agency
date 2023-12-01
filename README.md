@@ -172,3 +172,15 @@ To fork the repository:
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, <https://github.com/kb5991/17agency>
 3. Click the Fork button in the top right corner.
+
+## Testing
+
+### Manual Testing
+
+#### Jigsaw CSS Validator used to validate the CSS code written for my website.
+
+![CSS Validator](assets/images/cssvalidator.png)
+
+#### W3C Validator used to validate the HTML 5 code written on all pages for my website.
+
+![HTML Validator]()
