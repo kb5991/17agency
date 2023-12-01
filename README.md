@@ -5,18 +5,18 @@
 
 ## Introduction
 
-This website is created to showcase the business and portfolio works of the creative styling agency; Seventeen Agency. The purpose of this website is to target industry professionals looking for an agency to aid them with fashion styling, hair and makeup, photography and creative direction for any projects from editorial to digital. Visitors are met with informative headings at the top of the page, directing them to various pages to learn more about the agency, from an about page to a vibrant portfolio of previous works, to a contact page for any enquiries. Below, the footer links to the agency's external social media pages for further browsing. 
+This website is created to showcase the business and portfolio works of the creative styling agency; Seventeen Agency. The purpose of this website is to target industry professionals looking for an agency to aid them with fashion styling, hair and makeup, photography and creative direction for any projects from editorial to digital. Visitors are met with informative headings at the top of the page, directing them to various pages to learn more about the agency, from an about page to a vibrant portfolio of previous works, to a contact page for any enquiries. Below, the footer links to the agency's external social media pages for further browsing.
 The website has been designed responsively, to work effectively on all device sizes and with a minimal design to ensure ease of navigation and to be aesthetically pleasing to the eye.
 
 ## User Experience
 
-### Business Goals:
+### Business Goals
 
 1. To convey Seventeen Agency's company directive to visitors and introduce business for potential clients.
 2. To showcase the type of work that Seventeen Agency does by updating the portfolio frequently to keep existing and potential clients up to date.
 3. To build a rapport with clients with strong communication across all channels - via the website and social media pages.
 
-### User Goals:
+### User Goals
 
 1. To be able to easily navigate through the website through informative header and footer elements.
 2. To be able to easily learn about Seventeen Agency, what it does and how can it help improve your own or business needs.
@@ -36,13 +36,15 @@ The colour scheme for this website was chosen mainly for accessibility purposes 
 
 The fonts used for this website are 'DM Serif Display' for the headings and 'DM Sans' for all other text - as paired by fontpair.co and imported via Google Fonts, with 'serif' and 'sans-serif' set as fallback fonts respectively.
 
+![Fontpair Typography](assets/images/fontpair.png)
+
 ### Imagery
 
 The imagery for this website was sourced mainly from pexels.com (with exception of the homepage hero image sourced from unsplash.com). The images were chosen specifically to have an editorial aesthetic - meaning that the images were to look as though they had jumped from the pages of a magazine or a campaign photoshoot to give the look and feel of high quality production by Seventeen Agency. The images were all compressed using tinypng.com.
 
 ### Wireframes
 
-The wireframes for this website were created using Balsamiq.com. Originally, as seen in the wireframes below, the design was set to include a logo consisting of a black circle enclosing the number '17' in place of the heading 'Seventeen Agency'. This logo was scrapped for the final version of the website and was kept only as the favicon. This change was made partly due to aesthetic purposes and because the heading of 'Seventeen Agency' conveyed more clearly the purpose of the website as opposed to a circular logo with just a number inside of it. 
+The wireframes for this website were created using Balsamiq.com. Originally, as seen in the wireframes below, the design was set to include a logo consisting of a black circle enclosing the number '17' in place of the heading 'Seventeen Agency'. This logo was scrapped for the final version of the website and was kept only as the favicon. This change was made partly due to aesthetic purposes and because the heading of 'Seventeen Agency' conveyed more clearly the purpose of the website as opposed to a circular logo with just a number inside of it.
 
 The website consists of five pages in total, the Home page, the About page, the Portfolio page, the Contact page and finally, the Thank You page which users are redirected to upon completion of the contact form. In the original designs for the website, this was set to include three pages only, with the homepage acting as the portfolio page also so that visitors could see immediately the type of work that the agency produced. However, this was changed to include a landing page with a singular hero image and informative heading which, when clicked, takes the user to the 'About' page. This design decision was made to make the website easier to navigate and made more sense for the user to visit the 'About' page first to learn more about Seventeen Agency and then move onto the 'Portfolio' page to see previous works.
 
@@ -80,11 +82,11 @@ The navbar for this website is situated at the top of each page, with the name o
 
 ### Footer and social media icons
 
-The footer is situated at the bottom of each page, with clickable links to the Instagram, Tiktok and YouTube social media pages of the business. 
+The footer is situated at the bottom of each page, with clickable links to the Instagram, Tiktok and YouTube social media pages of the business.
 
 ![Footer with social media links](assets/images/footer.png)
 
-### Landing/Homepage 
+### Landing/Homepage
 
 The landing page boasts an aesthetic, high quality, fashion photograph - showcasing the agency's work upon the first visit to the the website. This image, along with the single across the image helps the user to understand the type of quality and services on offer by Seventeen Agency. The landing image and text when clicked/tapped will take the user to the website's 'About' page.
 
@@ -92,13 +94,13 @@ The landing page boasts an aesthetic, high quality, fashion photograph - showcas
 
 ### About page
 
-The about page features the agency's main goals and initiatives, the services and talent they provide and inviting potential clients to collaborate with them. Complementary images are used to break up the text and bring colour to the page. 
+The about page features the agency's main goals and initiatives, the services and talent they provide and inviting potential clients to collaborate with them. Complementary images are used to break up the text and bring colour to the page.
 
 ![About page](assets/images/aboutpage.png)
 
 ### Portfolio page
 
-The portfolio page features the high quality work produced by the agency, to show current and potential clients what they can expect from Seventeen Agency upon working with the business. The page has been designed to work responsively, with 5 columns of imagery on laptops and desktops, down to 3 columns on tablets, and a singular column on phones. 
+The portfolio page features the high quality work produced by the agency, to show current and potential clients what they can expect from Seventeen Agency upon working with the business. The page has been designed to work responsively, with 5 columns of imagery on laptops and desktops, down to 3 columns on tablets, and a singular column on phones.
 
 ![Portfolio page](assets/images/portfoliopage.png)
 
@@ -121,3 +123,52 @@ In the future I would like to improve the performance of the website as some of 
 ### Accessibility
 
 Aria labels have been used consistently on all pages as well as alt text on images for ease of use for screen readers and for any broken image links. I have also included fallback fonts should the specified fonts fail to load as well as semantic elements for easy navigation.
+
+## Technologies Used
+
+**Github** - used for version control, site storage and for deploying my project.\
+**Codeanywhere** - this is the IDE that I used to write, edit, commit and push my code to Github.\
+**Python** - used to open a local http server when coding in Codeanywhere to preview my site.\
+**HTML 5** - used to build the core of my website.\
+**CSS** - used to style all elements of my website.\
+**DevTools** - used to test the responsiveness of my website and check for bugs.\
+**Fontpair.co** - used to find complementary font pairings.\
+**Google Fonts** - used to import the fonts used.\
+**Font Awesome** - used to import social media icons for the footer.\
+**Pexels** - used to source website imagery.\
+**Unsplash** - used to source website imagery.\
+**TinyPNG** - used to compress all website imagery.\
+**Favicon.io** - used to create favicon for my website.\
+**Beautify extension on Codeanywhere** - used to format code correctly.\
+**Balsamiq** - used to create the wireframes for the initial design process of my website.\
+**Am I Responsive?** - used to test the responsiveness of the website.
+
+## Languages Used
+
+HTML 5, CSS
+
+## Libraries and programmes used
+
+Github was used for version control, site storage and for deploying my project to Github pages. Codeanywhere is the IDE I used to write, edit, commit and push my code to Github.
+
+## Deployment
+
+I deployed my website early on Github pages.
+
+## Local Deployment
+
+#### How to Clone
+
+1. Log into your account on GitHub
+2. Go to the repository of this project <https://github.com/kb5991/17agency>
+3. Click on the code button, and copy your preferred clone link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, <https://github.com/kb5991/17agency>
+3. Click the Fork button in the top right corner.

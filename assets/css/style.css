@@ -145,7 +145,7 @@ main {
 /* Contact Page and Contact Form */
 #contact {
     height: 75vh;
-    width: 100;
+    width: 100%;
     background: url(../images/hero2.jpg) no-repeat top/cover;
     position: relative;
     padding: 10px 10% 0 10%;
@@ -191,7 +191,7 @@ main {
 /* Thanks Page */
 #thanks-image {
     height: 75vh;
-    width: 100;
+    width: 100%;
     background: url(../images/thanks.jpg) no-repeat center/cover;
     position: relative;
     padding: 10px 10% 0 10%;
