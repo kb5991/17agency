@@ -177,10 +177,20 @@ To fork the repository:
 
 ### Manual Testing
 
-#### Jigsaw CSS Validator used to validate the CSS code written for my website.
+#### Jigsaw CSS Validator used to validate the CSS code written for my website
 
 ![CSS Validator](assets/images/cssvalidator.png)
 
-#### W3C Validator used to validate the HTML 5 code written on all pages for my website.
+#### W3C Validator used to validate the HTML 5 code written on all pages for my website
 
-![HTML Validator]()
+![HTML Validator](assets/images/html1.png)
+
+![HTML Validator](assets/images/html2.png)
+
+![HTML Validator](assets/images/html3.png)
+
+![HTML Validator](assets/images/html4.png)
+
+![HTML Validator](assets/images/html5.png)
+
+#### Lighthouse Testing

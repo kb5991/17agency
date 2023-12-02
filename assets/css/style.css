@@ -100,13 +100,13 @@ main {
 #cover-text {
     /* Final RGB value used to set opacity */
     background-color: rgba(0, 0, 0, 0.31);
-    font-size: 110%;
+    font-size: 90%;
     color: #ffffff;
     position: absolute;
     bottom: 130px;
     min-width: 25%;
     min-height: 100px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-right: 10px;
     padding-left: 10px;
 }
