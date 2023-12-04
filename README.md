@@ -40,7 +40,7 @@ The fonts used for this website are 'DM Serif Display' for the headings and 'DM 
 
 ### Imagery
 
-The imagery for this website was sourced mainly from pexels.com (with exception of the homepage hero image sourced from unsplash.com). The images were chosen specifically to have an editorial aesthetic - meaning that the images were to look as though they had jumped from the pages of a magazine or a campaign photoshoot to give the look and feel of high quality production by Seventeen Agency. The images were all compressed using tinypng.com and then converted to webp format using pixelied.com. 
+The imagery for this website was sourced mainly from pexels.com (with exception of the homepage hero image sourced from unsplash.com). The images were chosen specifically to have an editorial aesthetic - meaning that the images were to look as though they had jumped from the pages of a magazine or a campaign photoshoot to give the look and feel of high quality production by Seventeen Agency. The images were all compressed using tinypng.com and then converted to webp format using pixelied.com.
 
 ### Wireframes
 
@@ -118,7 +118,7 @@ Upon clicking the submit form on the contact page, the user is redirected to the
 
 ### Future Implemenations
 
-In the future I would like to improve the performance of the website as some of the imagery in particular is known to slow down the loading speed of the website despite initial and further compression. I would also like to implement a feature where the images in the portfolio can have captions with names of the particular talent - whether they were a fashion stylist or a hair and makeup artist for example, who contributed to that particular campaign/shoot and links to their own portfolio pages for clients to see and choose who they wish to work with.
+In the future I would like to implement a feature where the images in the portfolio can have captions with names of the particular talent - whether they were a fashion stylist or a hair and makeup artist for example, who contributed to that particular campaign/shoot and links to their own portfolio pages for clients to see and choose who they wish to work with.
 
 ### Accessibility
 
@@ -236,9 +236,9 @@ The website was tested on the following devices:
 
 - iPhone 15 Pro
 
-- Macbook Pro 13" 2020
-
 - iPad Air 11"
+
+- Macbook Pro 13" 2020
 
 - ASUS Rog Strix Gaming Laptop 15.6"
 
@@ -280,3 +280,49 @@ Additional testing was done on a variety of devices and screen sizes.
 |   |   |   |   |
 | Contact form | Required fields and correct email address format needed in order to submit.| Clicked submit while leaving form unfillled | Form will not submit without a name, a correctly formatted email address and a message. | Pass |
 | Submit button | Upon correct completion and submission of form, user is redirected to the Thank You page. | Form completed, submit button clicked | User redirected to Thank You page. | Pass |
+
+## Bugs
+
+Upon conducting my initial Lighthouse tests, I came across a semantic error on the index and thank you pages of my website. Both pages use the same format, a background image with overlaying text. I had initially used h3 headings for this text however, this was flagged by the Lighthouse tests as a semantic error, bringing down the accessibility scores of these pages. After encountering this error, I amended it by changing the h3 headings to h2 headings which brought the accessibility scores up to 100 as can be seen above. 
+
+Index page accessibility score prior to heading fix:
+
+![Index page bug](assets/images/indexbug1h3h2.png)
+
+Thank you page accessibility score prior to heading fix:
+
+![Thank you page bug](assets/images/thankyoubug.png)
+
+Heading semantic error:
+
+![Semantic error](assets/images/indexandthankyoubug.png)
+
+As a result of using compressed jpeg images across my website, the performance and loading speeds were impacted as can be seen the strongest in the initial Lighthouse testing scores of my portfolio page below:
+
+![Portfolio Lighthouse speeds](assets/images/portfoliobug2.png)
+
+Upon converting the imagery to webp format, the perfomance of my website scored much higher across all pages, bringing up the initial score of 51 to 72 on my portfolio page as can be seen in the final testing in the section above.
+
+## Credits 
+
+**Code Assistance:**
+
+The asterisk wildcard selector styles and navbar styles for the collapsible hamburger menu were written with assistance from the Love Running Project.
+
+I used YouTube for tutorials regarding media queries and Flexbox.
+
+Media Queries: https://www.youtube.com/watch?v=yU7jJ3NbPdA&t=175s
+
+Flexbox: https://www.youtube.com/watch?v=fYq5PXgSsbE
+
+**Copy:**
+
+All copy on the about page was written by Chat GPT. <https://chat.openai.com/>
+
+**Images**
+
+All images were sourced from Pexels.com and Unsplash.com.
+
+**Acknowledgements**
+
+I would like to acknowledge and thank mentors Luke Buchanan and Chris Quinn for their incredible insight, clear and constructive feedback on this project, and for always giving me reassurance that I was heading in the right direction. 
