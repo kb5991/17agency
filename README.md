@@ -40,7 +40,7 @@ The fonts used for this website are 'DM Serif Display' for the headings and 'DM 
 
 ### Imagery
 
-The imagery for this website was sourced mainly from pexels.com (with exception of the homepage hero image sourced from unsplash.com). The images were chosen specifically to have an editorial aesthetic - meaning that the images were to look as though they had jumped from the pages of a magazine or a campaign photoshoot to give the look and feel of high quality production by Seventeen Agency. The images were all compressed using tinypng.com.
+The imagery for this website was sourced mainly from pexels.com (with exception of the homepage hero image sourced from unsplash.com). The images were chosen specifically to have an editorial aesthetic - meaning that the images were to look as though they had jumped from the pages of a magazine or a campaign photoshoot to give the look and feel of high quality production by Seventeen Agency. The images were all compressed using tinypng.com and then converted to webp format using pixelied.com. 
 
 ### Wireframes
 
@@ -138,6 +138,7 @@ Aria labels have been used consistently on all pages as well as alt text on imag
 **Pexels** - used to source website imagery.\
 **Unsplash** - used to source website imagery.\
 **TinyPNG** - used to compress all website imagery.\
+**Pixelied.com** - used to convert all imagery into wepb format.\
 **Favicon.io** - used to create favicon for my website.\
 **Beautify extension on Codeanywhere** - used to format code correctly.\
 **Balsamiq** - used to create the wireframes for the initial design process of my website.\
@@ -194,3 +195,88 @@ To fork the repository:
 ![HTML Validator](assets/images/html5.png)
 
 #### Lighthouse Testing
+
+I used Google Chrome's Lighthouse Developer Tool for insight on the performance and accessibility measures of my website. Initially, the performance and speed was slowed down greatly by large images even though they had been compressed, sometimes twice, using TinyPNG.com. I had then converted these images from jpeg format to webp, which significantly improved the performance of my website. Below are the final Lighthouse results.
+
+**Index Page:**
+
+![Index page Lighthouse](assets/images/indexlighthouse.png)
+
+**About Page:**
+
+![About page Lighthouse](assets/images/aboutlighthouse.png)
+
+**Portfolio Page:**
+
+![Portfolio page Lighthouse](assets/images/portfoliolighthouse.png)
+
+**Contact Page:**
+
+![Contact page Lighthouse](assets/images/contactlighthouse.png)
+
+**Thank You Page:**
+
+![Thank you page Lighthouse](assets/images/thankyoulighthouse.png)
+
+#### Wave Testing
+
+I used the Wave Web Accessibility Evaluation tool to check the accessibility of my website. The errors detected are due to the hamburger icon used for the collapsible menu on smaller screens - as this function was created with help from the Love Running project, which also flags the same errors via Wave, I have not yet come up with a solution for this.
+
+![Wave testing](assets/images/wave.png)
+
+![Wave Error](assets/images/waveerror.png)
+
+#### Device Testing
+
+The website was tested on the following devices:
+
+- iPhone 13 Pro
+
+- iPhone 13 Pro Max
+
+- iPhone 15 Pro
+
+- Macbook Pro 13" 2020
+
+- iPad Air 11"
+
+- ASUS Rog Strix Gaming Laptop 15.6"
+
+- 24" widescreen monitor
+
+The website was tested on the following browsers:
+
+- Google Chrome
+
+- Safari
+
+- Microsoft Edge
+
+Additional testing was done on a variety of devices and screen sizes.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+|  |  |  |  |  |
+| Seventeen Agency Logo | When clicked the user will be redirected to the Home page. | Clicked logo | Redirected to the Home page. | Pass |
+| Home Link | When clicked the user will be redirected to the Home page.| Clicked link | Redirected to the Home page. | Pass |
+| About Link | When clicked the user will be redirected to the About page. | Clicked link | Redirected to the About page. | Pass |
+| Portfolio Link | When clicked the user will be redirected to the Portfolio page. | Clicked link | Redirected to the Portfolio page. | Pass |
+| Contact Link | When clicked the user will be redirected to the Contact page. | Clicked link | Redirected to the Contact page. | Pass |
+| --- | --- | --- | --- | --- |
+| `Footer` |
+|  |  |  |  |  |
+| Social Media Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass |
+| --- | --- | --- | --- | --- |
+| `Home Page` |
+|   |   |   |   |
+| Landing Image and Text | When clicked the user will be redirected to the About page. | Clicked landing image and text | Redirected to the About page. | Pass |
+| --- | --- | --- | --- | --- |
+| `Portfolio Page` |
+|   |   |   |   |
+| Portfolio responsiveness | When window is resized the portfolio is responsive and site layout looks as expected. | Resized window | Portfolio is responsive and site layout looks as expected.| Pass |
+| --- | --- | --- | --- | --- |
+| `Contact Page` |
+|   |   |   |   |
+| Contact form | Required fields and correct email address format needed in order to submit.| Clicked submit while leaving form unfillled | Form will not submit without a name, a correctly formatted email address and a message. | Pass |
+| Submit button | Upon correct completion and submission of form, user is redirected to the Thank You page. | Form completed, submit button clicked | User redirected to Thank You page. | Pass |
