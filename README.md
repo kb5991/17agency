@@ -283,7 +283,7 @@ Additional testing was done on a variety of devices and screen sizes.
 
 ## Bugs
 
-Upon conducting my initial Lighthouse tests, I came across a semantic error on the index and thank you pages of my website. Both pages use the same format, a background image with overlaying text. I had initially used h3 headings for this text however, this was flagged by the Lighthouse tests as a semantic error, bringing down the accessibility scores of these pages. After encountering this error, I amended it by changing the h3 headings to h2 headings which brought the accessibility scores up to 100 as can be seen above. 
+Upon conducting my initial Lighthouse tests, I came across a semantic error on the index and thank you pages of my website. Both pages use the same format, a background image with overlaying text. I had initially used h3 headings for this text however, this was flagged by the Lighthouse tests as a semantic error, bringing down the accessibility scores of these pages. After encountering this error, I amended it by changing the h3 headings to h2 headings which brought the accessibility scores up to 100 as can be seen above.
 
 Index page accessibility score prior to heading fix:
 
@@ -303,7 +303,7 @@ As a result of using compressed jpeg images across my website, the performance a
 
 Upon converting the imagery to webp format, the perfomance of my website scored much higher across all pages, bringing up the initial score of 51 to 72 on my portfolio page as can be seen in the final testing in the section above.
 
-## Credits 
+## Credits
 
 **Code Assistance:**
 
@@ -319,10 +319,10 @@ Flexbox: https://www.youtube.com/watch?v=fYq5PXgSsbE
 
 All copy on the about page was written by Chat GPT. <https://chat.openai.com/>
 
-**Images**
+**Images:**
 
 All images were sourced from Pexels.com and Unsplash.com.
 
-**Acknowledgements**
+**Acknowledgements:**
 
-I would like to acknowledge and thank mentors Luke Buchanan and Chris Quinn for their incredible insight, clear and constructive feedback on this project, and for always giving me reassurance that I was heading in the right direction. 
+I would like to acknowledge and thank mentors Luke Buchanan and Chris Quinn for their incredible insight, clear and constructive feedback on this project, and for always giving me reassurance that I was heading in the right direction.
